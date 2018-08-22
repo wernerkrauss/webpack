@@ -1,0 +1,14 @@
+.post-single {
+  @include hide;
+}
+.posts-test-bgimage{
+  background: url("../../images/wp.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.class-should-be-removed{
+  color: red;
+}

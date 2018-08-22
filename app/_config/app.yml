@@ -1,0 +1,37 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+HSBPage\Pages\ElementalPage:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+
+
+# nglasl/silverstripe-extensible-search start
+
+SilverStripe\ORM\Search\FulltextSearchable:
+  searchable_classes:
+  - 'SilverStripe\CMS\Model\SiteTree'
+
+SilverStripe\CMS\Model\SiteTree:
+  create_table_options:
+    MySQLDatabase: 'ENGINE=MyISAM'
+  extensions:
+  - "SilverStripe\\ORM\\Search\\FulltextSearchable('Title', 'MenuTitle', 'Content', 'MetaDescription')"
+
+PageController:
+  extensions:
+  - 'nglasl\extensible\ExtensibleSearchExtension'
+
+
+# end
+---
+Only:
+  environment: 'dev'
+---
+SilverLeague\IDEAnnotator\DataObjectAnnotator:
+  enabled: true
+  enabled_modules:
+  - app

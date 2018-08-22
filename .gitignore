@@ -1,0 +1,26 @@
+# ignore everything...
+
+/*
+
+
+# ...but
+!/.htaccess
+!/.gitignore
+!/phpunit.xml
+!/composer.json
+!/composer.lock
+!/.editorconfig
+!/index.php
+!/README.md
+!/app
+!/public/src
+!/public
+/public/node_modules
+/public/resources
+/public/dist
+/public/assets
+
+**/.sass-cache
+.DS_Store
+**/.DS_Store
+

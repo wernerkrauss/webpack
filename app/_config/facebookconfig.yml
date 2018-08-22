@@ -1,0 +1,7 @@
+---
+Name: facbook config file
+---
+HSBPage\ElementsControllers\FBNewsController:
+  app_id: '214991005793188'
+  app_secret: 'caafa2330cba1f9accf60685638643bf'
+  access_token: 'EAADDiH6Hu6QBAC2c73kfZBgWxsxCs2ZCTpeSAFakaSsqCeMfYwCJJZCDkcSdolwiPmMucABycHfAsidPGp2e2UPey0n7trWMHdAm3dO1ZC8BqIetQcGtAq3ZCfIU3tYftamhezgZBaCaEJneBIKEPzJMMDyZCySchDZBZCQYefPVa1sjb9sTStyqq'
