@@ -16,6 +16,7 @@
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "glob-all": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
     "imagemin-gifsicle": "^5.2.0",
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-optipng": "^5.2.1",
@@ -27,16 +28,18 @@
     "purgecss-webpack-plugin": "^1.2.1",
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
-    "resolve-url-loader": "^2.3.0",
+    "resolve-url-loader": "^3.0.0-alpha.1",
     "sass-loader": "^7.1.0",
-    "silverstripe-template-loader": "^0.0.1",
     "style-loader": "^0.22.0",
+    "url-loader": "^1.1.1",
+    "webapp-webpack-plugin": "^2.3.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-livereload-plugin": "^2.1.1"
   },
   "dependencies": {
     "app-root-path": "^2.1.0",
-    "rootpath": "^0.1.2"
+    "rootpath": "^0.1.2",
+    "silverstripe-template-loader": "0.0.1"
   }
 }
